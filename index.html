@@ -6,66 +6,42 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
    
 </head>
 <body>
-   <script src="assets/js/script.js"></script> 
+  
    <main class="main_container">
-    <div class="title">
-        <h1 >TO DO LIST</h1>
+    <div class="section_container">
         
-    </div>
-    <div >
-        <input type="text" class="input" >
-        <button class="icon">
-            <i class="fa-solid fa-plus"></i>
+            <h1 class="main_header" >TO DO LIST</h1>
+            
+        <div>
+            <div class="user_input_container">
+                <input required type="text"  placeholder="enter your list"  id="input" class="user_input" >
+                <button onclick=handleSubmit() class="user_input_button">
+                    <i class="fa-solid fa-plus"></i>
+        
+        
+                </button>
+            </div>
+            <div class="list_container" id="listContainer">
 
-
-        </button>
-    </div>
-    <div class="todolistmain">
-        <div class="todoListContainer">
-            <button aria-colspan="2px"></button>
-            <p class="text">fall in love</p>
+            </div>
+            
+                
+            </div>
+            
+        
         </div>
-        <div class="todoListContainer">
-            <button aria-checked="true"></button>
-            <p class="text">bike ride </p>
-        </div>
-        <div class="todoListContainer">
-            <button aria-checked="true"></button>
-            <p class="text">go to cinema r</p>
-        </div>
-        <div class="todoListContainer">
-            <button aria-checked="true"></button>
-            <p class="text">cleaining room</p>
-        </div>
-        <div class="todoListContainer">
-            <button aria-checked="true"></button>
-            <p class="text">doctor appoinment</p>
-        </div>
-        <div class="todoListContainer">
-            <button aria-checked="true"></button>
-            <p class="text">fall in love</p>
-        </div>
-        <div class="todoListContainer">
-            <button aria-checked="true"></button>
-            <p class="text">fall in love</p>
-        </div>
-        <div class="todoListContainer">
-            <button aria-checked="true"></button>
-            <p class="text">fall in love</p>
-        </div>
-        <div class="todoListContainer">
-            <button aria-checked="true"></button>
-            <p class="text">fall in love</p>
-        </div>
-    </div>
+    
+        
     
     
 
   
    </main>
+   <script src="assets/js/script.js"></script> 
    
 </body>
 </html>
