@@ -2,12 +2,14 @@
 {
     margin: 0;
    box-sizing: border-box;
+   
 }
 .main_container
 {
 background-color: #AAD7D9;
-height: 70%;
+height: 150%;
 width: 50%;
+border-radius: 20px;
 position: absolute;
 top: 20%;
 left: 25%;
@@ -22,9 +24,9 @@ left: 25%;
 .input
 {
     position: absolute;
-top: 20%;
+top: 15%;
 left: 35%;
-height: 8%;
+height: 4%;
 width: 35%;
 border-radius: 10% solid black;
 border: black;
@@ -32,9 +34,9 @@ border: black;
 .icon
 {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 70%;  
-    height: 8%;
+    height: 4%;
 width: 6%;
 background-color: blueviolet;
 }
@@ -42,10 +44,14 @@ background-color: blueviolet;
 {
     background-color: white;
     padding: 20px 20px;
-    height: 10%;
+    height: 8%;
     width:60%;
-    margin-top: 20%;
-    margin-left: 20px;
+    margin-top: 5%;
+    margin-left: 25%;
     display: flex;
     justify-content: space-between;
+    align-content: center;
+}
+.todolistmain{
+    margin-top: 30%;
 }
