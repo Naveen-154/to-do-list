@@ -1,1 +1,51 @@
-/* xcss */
+*
+{
+    margin: 0;
+   box-sizing: border-box;
+}
+.main_container
+{
+background-color: #AAD7D9;
+height: 70%;
+width: 50%;
+position: absolute;
+top: 20%;
+left: 25%;
+}
+.title
+{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: black;
+}
+.input
+{
+    position: absolute;
+top: 20%;
+left: 35%;
+height: 8%;
+width: 35%;
+border-radius: 10% solid black;
+border: black;
+}
+.icon
+{
+    position: absolute;
+    top: 20%;
+    left: 70%;  
+    height: 8%;
+width: 6%;
+background-color: blueviolet;
+}
+.todoListContainer
+{
+    background-color: white;
+    padding: 20px 20px;
+    height: 10%;
+    width:60%;
+    margin-top: 20%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
